@@ -115,3 +115,13 @@ img.mask {
     width: 100%;
     height: 300px;
 }
+
+a.mask {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../media/mask.jpg");
+    background-color: #1D2A37;
+    background-blend-mode: normal;
+}
