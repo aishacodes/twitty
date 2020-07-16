@@ -188,3 +188,40 @@ a.trd span {
     display: flex;
     justify-content: space-between;
 }
+
+.left-form {
+    border: 1px solid #E6ECF0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.left-form img {
+    width: 260px;
+    height: 260px;
+    margin: 1rem;
+}
+
+.left-form h1 {
+    font-weight: 800;
+    font-size: 1.46rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F8FA;
+    margin-top: 1rem;
+}
+
+.form-group input {
+    outline: none;
+    border: none;
+    background-color: #F5F8FA;
+}
