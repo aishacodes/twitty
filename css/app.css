@@ -22,6 +22,7 @@ nav {
     overflow-y: auto;
     margin-left: 15.5rem;
     padding: 0 1rem 3rem;
+    border-right: 1px solid #E6ECF0;
 }
 
 .nav-links {
@@ -109,8 +110,81 @@ a.nav-btn {
 
 main {
     display: flex;
+    margin-left: 28.5%;
+    height: 100vh;
 }
 
 .main-sec {
     display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E6ECF0;
+    width: 46rem;
+}
+
+main .msheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 1.5rem;
+    border-bottom: 1px solid #E6ECF0;
+}
+
+.msheader a {
+    color: #14171a;
+    font-weight: 800;
+    font-size: 1.46rem;
+}
+
+.post-tweet {
+    padding: 1rem 1.5rem;
+    border-bottom: .8rem solid #E6ECF0;
+}
+
+.type-tweet {
+    display: flex;
+    align-items: center;
+}
+
+.type-tweet img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.type-tweet input {
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    font-size: 1.46rem;
+}
+
+.pt-icons {
+    padding: 2rem 4.85rem .5rem;
+    display: flex;
+    align-items: center;
+}
+
+.pt-icons span {
+    flex-grow: 1;
+}
+
+.pt-icons a {
+    margin-right: 1rem;
+}
+
+.pt-icons a.btn {
+    background-color: rgb(29, 161, 242);
+    border-radius: 25px;
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: white;
+}
+
+.trends-sec {
+    border-right: 1px solid #E6ECF0;
 }
