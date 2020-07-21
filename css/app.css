@@ -137,6 +137,8 @@ main .msheader {
 .post-tweet {
     padding: 1rem 1.5rem;
     border-bottom: .8rem solid #E6ECF0;
+    display: flex;
+    flex-direction: column;
 }
 
 .type-tweet {
@@ -159,7 +161,7 @@ main .msheader {
 }
 
 .pt-icons {
-    padding: 2rem 4.85rem .5rem;
+    padding: 2rem 0 0 4.85rem;
     display: flex;
     align-items: center;
 }
@@ -168,7 +170,7 @@ main .msheader {
     flex-grow: 1;
 }
 
-.pt-icons a {
+.pt-icons a.sp {
     margin-right: 1rem;
 }
 
@@ -186,5 +188,182 @@ main .msheader {
 }
 
 .trends-sec {
-    border-right: 1px solid #E6ECF0;
+    width: 27rem;
+    margin-left: 2rem;
+}
+
+.search {
+    width: 99%;
+    border-radius: 25px;
+    margin: .5rem 0;
+    padding: .6rem;
+    display: flex;
+    align-items: center;
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+}
+
+.search img {
+    margin: 0 .5rem;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: .5rem 0;
+    background-color: #E6ECF0;
+}
+
+.trends {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #F5F8FA;
+    color: #14171a;
+}
+
+.trend-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #E6ECF0;
+}
+
+.trend-header p {
+    font-weight: 800;
+    font-size: 1.46rem;
+}
+
+a.trend {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #E6ECF0;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: #14171a;
+}
+
+a.trend:hover {
+    background-color: #E6ECF0;
+}
+
+a.sm {
+    color: #1da1f2;
+    font-weight: 400;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+a.sm:hover {
+    background-color: #E6ECF0;
+}
+
+.wtf {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #F5F8FA;
+    color: #14171a;
+}
+
+.wtf p.head {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #E6ECF0;
+    font-weight: 800;
+    font-size: 1.46rem;
+}
+
+a.user {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #E6ECF0;
+}
+
+img.userpic {
+    width: 3.77rem;
+    height: 3.77rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.user-names {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 1.15rem;
+    color: #14171a;
+}
+
+.user-names p {
+    font-weight: 700;
+    padding-bottom: .3rem;
+}
+
+.user-names span {
+    font-weight: 400;
+    color: #657786
+}
+
+img.sega-icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: .3rem;
+}
+
+img.verify {
+    width: 1rem;
+    height: 1rem;
+    margin-left: .3rem;
+}
+
+button.fbtn {
+    background-color: #F5F8FA;
+    border-radius: 25px;
+    box-shadow: none;
+    border: none;
+    padding: .5rem 1.5rem;
+    border: 1px solid #1da1f2;
+    cursor: pointer;
+    color: #1da1f2;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+button.fbtn:hover {
+    background-color: #E8F5FE;
+    ;
+}
+
+a.user:hover {
+    background-color: #E6ECF0;
+}
+
+footer {
+    font-size: 1rem;
+    color: #657786;
+    display: flex;
+    flex-direction: column;
+}
+
+footer span {
+    display: flex;
+    align-items: center;
+}
+
+footer span a {
+    color: #657786;
+    padding: 0 .3rem;
+}
+
+footer span a:hover {
+    text-decoration: underline;
 }
