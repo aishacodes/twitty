@@ -232,6 +232,10 @@ form {
     font-size: 1.15rem;
 }
 
+.form-group .label {
+    color: #1DA1F2;
+}
+
 .form-group input {
     outline: none;
     border: none;
