@@ -394,3 +394,27 @@ footer span .more img {
 footer span a:hover {
     text-decoration: underline;
 }
+
+.bottom-nav {
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.2rem .7rem;
+    box-shadow: 6px 3px 5px gray;
+}
+
+.bottom-nav p {
+    flex-grow: 1;
+    font-size: 1.46rem;
+    font-weight: 800;
+}
+
+.bottom-nav img {
+    margin: 0 .5rem;
+}
