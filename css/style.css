@@ -179,6 +179,32 @@ a.trd span {
     color: #000;
 }
 
+.box {
+    display: flex;
+    border: 1px solid #E6ECF0;
+    margin: .5rem 0;
+    border-radius: 10px;
+}
+
+.box img.bi {
+    width: 10rem;
+    height: 8rem;
+    margin-right: 1rem;
+}
+
+.box-text p {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    padding: .7rem 0 !important;
+    color: #000 !important;
+}
+
+.box-text span {
+    font-size: 1rem;
+    color: #657786 !important;
+    font-weight: 300 !important;
+}
+
 .left {
     display: flex;
     flex-direction: column;
