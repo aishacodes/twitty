@@ -192,14 +192,99 @@ main .msheader {
     flex-direction: column;
 }
 
-.tweet {
+a.tweet {
     display: flex;
+    flex-direction: column;
     padding: 1rem;
+    border-bottom: 1px solid #E6ECF0;
+}
+
+.rt {
+    display: flex;
+    align-items: center;
+    margin-bottom: .4rem;
 }
 
 .rt img {
     width: 13px;
     height: 18px;
+    margin-left: 20px;
+}
+
+.rt p {
+    font-size: 1rem;
+    color: #657786;
+    font-weight: 400;
+    margin-left: .7rem;
+}
+
+.main-tweet {
+    display: flex;
+}
+
+.main-tweet img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.main-tweetcontent {
+    display: flex;
+    flex-direction: column;
+    margin-left: .8rem;
+}
+
+.main-tweetheader {
+    display: flex;
+    align-items: center;
+    margin-bottom: .4rem;
+}
+
+.main-tweetheader p {
+    color: #14171a;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.main-tweetheader span {
+    font-size: 1rem !important;
+    color: #657786 !important;
+    font-weight: 400 !important;
+    margin-left: .4rem !important;
+    flex-grow: 1 !important;
+}
+
+.main-tweetheader img {
+    width: 18px;
+    height: 18px;
+}
+
+.main-tweetcontent span {
+    color: #14171a;
+    font-size: 1.15rem;
+    line-height: 1.46rem;
+    font-weight: 400;
+}
+
+.tweet-reactions {
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.tweet-reactions img {
+    width: 18px;
+    height: 18px;
+    margin-right: 20%;
+}
+
+.inner-tweet {
+    border: 1px solid #E6ECF0;
+    border-radius: 10px;
+    margin: .8rem;
+    padding: .5rem;
 }
 
 .trends-sec {
@@ -406,7 +491,7 @@ footer span a:hover {
     align-items: center;
     justify-content: flex-start;
     padding: 1.2rem .7rem;
-    box-shadow: 6px 3px 5px gray;
+    box-shadow: 0px 0px 10px gray;
 }
 
 .bottom-nav p {
