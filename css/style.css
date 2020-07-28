@@ -279,16 +279,19 @@ form a.fp {
     margin: 1rem 0;
 }
 
-a.loginbtn {
+button.loginbtn {
     width: 100%;
     background-color: white;
     color: #1DA1F2;
+    border: none;
     border: 1px solid #1DA1F2;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 3rem;
     border-radius: 25px;
+    outline: none;
+    cursor: pointer;
 }
 
 p.or {
@@ -298,9 +301,12 @@ p.or {
     justify-content: center;
 }
 
-a.signupbtn {
+button.signupbtn {
+    cursor: pointer;
     width: 100%;
     color: white;
+    outline: none;
+    border: none;
     background-color: #1DA1F2;
     display: flex;
     align-items: center;
