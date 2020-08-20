@@ -1,7 +1,7 @@
 # twitty
 **An implementation of twitter clone with HTML/CSS**
 ## Preview
-[demo]()
+[demo](https://twittyy.netlify.app/)
 
 ## Getting Started
 Clone or download this repository and run with a local server of open `index.html` with your favorite browser
